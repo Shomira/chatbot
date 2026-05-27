@@ -1,11 +1,19 @@
 {
-  "name": "chatbot",
+  "name": "chatbot-dialogflow",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "express": "^4.18.2"
+    "@google/genai": "^2.6.0",
+    "axios": "^1.16.1",
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
   }
 }
